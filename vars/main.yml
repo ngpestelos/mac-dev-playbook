@@ -31,9 +31,9 @@ homebrew_installed_packages:
   - python
   - sqlite
   - mysql
+  - postgresql
+  - redis
   - npm
-  - php56
-  - php56-xdebug
   - ssh-copy-id
   - cowsay
   - ios-sim
@@ -42,7 +42,6 @@ homebrew_installed_packages:
   - kdiff3
   - openssl
   - pv
-  - drush
   - wget
   - wrk
   - brew-cask
@@ -51,7 +50,6 @@ homebrew_taps:
   - caskroom/cask
   - homebrew/binary
   - homebrew/dupes
-  - homebrew/php
   - homebrew/versions
 
 homebrew_cask_appdir: /Applications
@@ -63,7 +61,7 @@ homebrew_cask_apps:
   - fing
   - firefox
   - handbrake
-  - karabiner
+  - iterm2
   - limechat
   - licecap
   - macvim
@@ -76,7 +74,6 @@ homebrew_cask_apps:
   - sublime-text # Note - Sublime Text 2 only, at this time...
   - textmate
   - timemachineeditor
-  - tower
   - transmit
   - vagrant
   - vagrant-manager
